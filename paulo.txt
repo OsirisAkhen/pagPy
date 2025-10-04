@@ -1,0 +1,12 @@
+Como resolver conflitos remoto vs local (ex: branch remoto esta tendo conflito com o branch local e quero mergir)
+- git status 
+
+(🚫 2. Se estiver no modo “(no branch, rebasing development)” e quiser cancelar o rebase)
+git rebase --abort
+
+(✅ 3. (Opcional) Se quiser tentar o rebase novamente corretamente)
+- git fetch origin 
+- git pull --rebase origin development
+
+(O Git vai pausar e mostrar mensagens do tipo:)
+CONFLICT (content): Merge conflict in src/app.js
