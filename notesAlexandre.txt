@@ -4,3 +4,5 @@ criar, editar e excluir arquivos no terminal (Windows):
 3. del (usar vírgulas entre diferentes arquivos)
 
 4. Comentario essencial para todos 
+
+5. ESTA FRAZE PRESICA ESTAR GRAMMATICAMENTE CORRETA SE NAO QUEBRA A VERCAO LIVE QUE ESTA NO RAMO MAIN
