@@ -1,4 +1,4 @@
-cwiar, editar e excluir arquivos no terminal (Windows):
+criar, editar e excluir arquivos no terminal (Windows):
 1. New-Item (usar vírgulas entre diferentes arquivos)
 2. rnm
 3. del (usar vírgulas entre diferentes arquivos)
