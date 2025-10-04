@@ -6,3 +6,5 @@ criar, editar e excluir arquivos no terminal (Windows):
 4. Comentario essencial para todos 
 
 5. ESTA FRASE PRESISA ESTAR GRAMATICAMENTE CORRETA SE NÃO QUEBRA A VERSÃO LIVE QUE ESTÁ NO RAMO MAIN
+
+6. Esta fraze tanbem e essencial i tem que estar gramarifamente coreta e precisa da parte do Alexandre tambem.
