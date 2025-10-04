@@ -3,3 +3,4 @@ cwiar, editar e excluir arquivos no terminal (Windows):
 2. rnm
 3. del (usar vírgulas entre diferentes arquivos)
 
+4. Comentario essencial para todos 
