@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Chat Flask-SocketIO</title>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+    <style>
+      body { font-family: system-ui, Arial, sans-serif; max-width: 640px; margin: 24px auto; }
+      #log { border: 1px solid #ddd; border-radius: 8px; height: 320px; overflow: auto; padding: 8px; }
+      form { display: flex; gap: 8px; margin-top: 8px; }
+      input { flex: 1; padding: 8px; }
+      button { padding: 8px 12px; }
+      .mine { font-weight: 600; }
+    </style>
+  </head>
+  <body>
+    <h1>Chat</h1>
+    <div id="log"></div>
+    <form id="form">
+      <input id="msg" placeholder="Digite e pressione Enter..." autocomplete="off" />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <script>
+      // Conecta no mesmo host/porta que serviu esta página (mais simples)
+      const socket = io();
+
+      const log = document.getElementById('log');
+      const form = document.getElementById('form');
+      const msg  = document.getElementById('msg');
+
+      // Quando chegar mensagem do servidor
+      socket.on('message', (m) => {
+        const div = document.createElement('div');
+        div.textContent = m;
+        log.appendChild(div);
+        log.scrollTop = log.scrollHeight;
+      });
+
+      // Enviar mensagem
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const text = msg.value.trim();
+        if (!text) return;
+        socket.emit('message', text);
+        msg.value = '';
+      });
+    </script>
+  </body>
+</html>

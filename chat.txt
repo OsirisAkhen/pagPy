@@ -1,0 +1,33 @@
+============================= overview 
+Projeto:
+
+Usuario se depara com a pagina de login
+Usuario tem a opcao para fazer login ou signup
+    - se ja tiver conta, pode fazer login
+    - se nao tiver conta pode criar uma ao navegar para a pagina de signup
+
+Usuario ja entra no chat ao vivo imediatamente ao fazer login
+Logado, usuario pode mandar, receber, deletar e editar mensagens em tempo real
+
+============================= passos
+Backend: 
+# 1. Criar um ambiente virtual isolado para dependências Python
+    python3 -m venv venv
+# 2. Instalar dependencias para chat em tempo real
+    pip install flask --> equivalente ao express, serve para criar rotas
+    pip install flask-socketio --> socket io para comunicação em tempo real
+# 3. Utilizar python do meu projeto e nao global
+    source venv/bin/activate
+# 4. rodar 
+    python app.py
+$ Sempre que instalar ou remover pacotes, rode dentro do backend:
+    pip freeze > requirements.txt
+
+
+
+============================= syntax e regras basicas
+# arquivos em python terminalm com o prefixo .py (ex: app.py)
+# pip --> gerenciador de pacotes oficial do python (assim como o npm para node)
+# https://pypi.org/ --> website oficial de gerenciador de pacotes python
+
+
