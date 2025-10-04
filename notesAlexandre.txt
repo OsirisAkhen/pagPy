@@ -6,5 +6,5 @@ criar, editar e excluir arquivos no terminal (Windows):
 4. Comentario essencial para todos 
 
 5. ESTA FRASE PRESISA ESTAR GRAMATICAMENTE CORRETA SE NÃO QUEBRA A VERSÃO LIVE QUE ESTÁ NO RAMO MAIN
-
-7. Parte Alexandre essencial:
+6. Esta frase também é essencial e tem que estar gramaticamente correta e precisa da parte do Alexandre também.
+7. Parte Alexandre essencial: "Nigga"
